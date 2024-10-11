@@ -13,7 +13,7 @@
       <nav>
         <div class="nav-container">
           <h3 class="nav-logo">Awlad.H</h3>
-          <button class="nav-btn">Download Resume</button>
+          <button type="button" onclick="alert('Hello world!')" class="nav-btn">Download Resume</button>
         </div>
       </nav>
       <!-- hero section -->
@@ -27,7 +27,7 @@
           coding skills, solving complex problems, and creating innovative
           software solutions to contribute to the ever-evolving tech industry.
         </p>
-        <button class="hero-btn">Contact with me</button>
+        <button class="hero-btn"><a href="#support">Contact with me</a></button>
       </section>
     </header>
     <!-- main section -->
@@ -58,7 +58,7 @@
                     I'll use coding to create innovative solutions, drive
                     progress, and positively impact the world around us
                   </div>
-                  <button class="card-btn">Learn More</button>
+                  <button type="button" onclick="alert('Hello world!')" class="card-btn">Learn More</button>
                 </div>
                 <div class="right-side">
                   <img src="./assets/Layer_1.png" alt="" />
@@ -81,7 +81,7 @@
                   systems that enhance efficiency, user experience, and digital
                   accessibility.
                 </div>
-                <button class="card-btn">Learn More</button>
+                <button type="button" onclick="alert('Hello world!')" class="card-btn">Learn More</button>
               </div>
             </div>
           </div>
@@ -97,7 +97,7 @@
                   By coding, I will bring innovative ideas to life, creating
                   impactful solutions that can change the world.
                 </div>
-                <button class="card-btn">Learn More</button>
+                <button type="button" onclick="alert('Hello world!')" class="card-btn">Learn More</button>
               </div>
               <div class="right-side">
                 <img src="./assets/Group 4.png" alt="" />
@@ -154,18 +154,26 @@
             <img class="current-img" src="./assets/css.png" alt="" />
             <h3 class="current-title">CSS</h3>
             <p class="current-description">
-              CSS is a stylesheet language used to design and control the layout, style, and appearance of web pages.
+              CSS is a stylesheet language used to design and control the
+              layout, style, and appearance of web pages.
             </p>
-            <a class="current-link" href="https://www.w3schools.com/css/">Learn More</a>
+            <a class="current-link" href="https://www.w3schools.com/css/"
+              >Learn More</a
+            >
           </div>
           <!-- cur card 3 -->
           <div id="cur-card3" class="cur-card">
             <img class="current-img" src="./assets/js.png" alt="" />
             <h3 class="current-title">JavaScript</h3>
             <p class="current-description">
-              JavaScript is a powerful programming language used to create dynamic, interactive web content and enhance user experiences.
+              JavaScript is a powerful programming language used to create
+              dynamic, interactive web content and enhance user experiences.
             </p>
-            <a class="current-link" href="https://www.w3schools.com/js/DEFAULT.asp">Learn More</a>
+            <a
+              class="current-link"
+              href="https://www.w3schools.com/js/DEFAULT.asp"
+              >Learn More</a
+            >
           </div>
         </div>
       </section>
@@ -203,7 +211,8 @@
             <div class="next-right-side">
               <h3 class="next-title">NodeJs</h3>
               <p class="next-description">
-                Node.js is a JavaScript runtime that enables server-side scripting for building fast, scalable web applications.
+                Node.js is a JavaScript runtime that enables server-side
+                scripting for building fast, scalable web applications.
               </p>
               <a class="next-link" href="https://nodejs.org/en">Learn More</a>
             </div>
@@ -216,14 +225,40 @@
             <div class="next-right-side">
               <h3 class="next-title">MongoDB</h3>
               <p class="next-description">
-                MongoDB is a NoSQL database that stores data in flexible, JSON-like documents for scalable, high-performance applications.
+                MongoDB is a NoSQL database that stores data in flexible,
+                JSON-like documents for scalable, high-performance applications.
               </p>
-              <a class="next-link" href="https://www.mongodb.com/">Learn More</a>
+              <a class="next-link" href="https://www.mongodb.com/"
+                >Learn More</a
+              >
             </div>
           </div>
         </div>
       </section>
+      <!-- I need Support -->
+       <section id="support" class="need-section">
+        <div class="need-container">
+          <div class="need-title">I need Support</div>
+        <div class="need-description">Please provide any feedback to help me improve, grow, and refine my skills for better performance and success.</div>
+        <form >
+          <input type="text" id="feedback" placeholder="Suggest me any feedback for me">
+          <input id="submit" type="submit">
+        </form>
+        </div>
+        
+       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-left">An Open Commitment by Awlad Hossain</div>
+        <div class="footer-right">
+         <a href="https://www.facebook.com/ZovaerHossain01/"> <img src="./assets/facebook.png" alt=""></a>
+         <a href="https://github.com/"> <img src="./assets/github.png" alt=""></a>
+         <a href="https://www.linkedin.com/in/md-zovaer-hossain-4b971b291/"><img src="./assets/linkedin-icon 1.png" alt=""></a>
+         
+          
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
